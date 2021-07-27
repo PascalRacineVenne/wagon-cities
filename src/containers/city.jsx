@@ -1,9 +1,11 @@
 import React from 'react';
 
-const City = ({ data }) => {
+const City = () => {
   return (
-    {data.name}
+    <div>
+      TODO AGAIN
+    </div>
   );
-};
+}
 
 export default City;

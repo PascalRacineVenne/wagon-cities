@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CityList from '../components/CityList';
-import ActiveCity from '../components/ActiveCity';
+import CityList from '../containers/city_list';
+import ActiveCity from './ActiveCity';
 
 const cities = [
   { name: 'Paris', address: '16 Villa Gaudelet, 75011 Paris', slug: 'paris' },
