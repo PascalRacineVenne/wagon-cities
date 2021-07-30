@@ -6,6 +6,6 @@ const City = ({ city }) => {
       {city.name} {city.address} {city.slug}
     </div>
   );
-}
+};
 
 export default City;
