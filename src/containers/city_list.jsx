@@ -2,12 +2,15 @@ import React from 'react';
 
 import City from './city';
 
-const CityList = () => {
+const CityList = ({ cities }) => {
   return (
-    <div className="col-sm-4">
-      <p>City List TODO</p>
-      {this.props.cities.map((city) => (
-        <City key={city.name} city={city} />
+    <div className="col-sm-4 cities">
+      <p>City List TODO_left</p>
+      {cities.map(city => (
+        <City
+          city={city}
+          key={city.name}
+        />
       ))}
     </div>
   );

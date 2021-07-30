@@ -1,9 +1,9 @@
 import React from 'react';
 
-const City = () => {
+const City = ({ city }) => {
   return (
-    <div>
-      TODO AGAIN
+    <div className="list-group-item">
+      {city.name} {city.address} {city.slug}
     </div>
   );
 }
